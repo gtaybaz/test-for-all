@@ -6,7 +6,7 @@ MAX_ITERATIONS = 100
 
 def is_valid_max_iterations(value):
     """Return True if `value` is an acceptable Max Iterations setting (1-100 inclusive)."""
-    return MIN_ITERATIONS <= value < MAX_ITERATIONS
+    return MIN_ITERATIONS <= value <= MAX_ITERATIONS
 
 
 def save_agent_config(agent_id, max_iterations):
