@@ -1,3 +1,3 @@
 # test-bg
 
-Small service module for saving an agent's configuration (currently just Max Iterations).
+Small service for saving and defaulting an agent's configuration (currently just Max Iterations).
